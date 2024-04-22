@@ -55,3 +55,19 @@ textarea {
 .row .input-field {
   flex-basis: 48%;
 }
+/* laptop */
+@media (min-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
