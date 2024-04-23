@@ -55,18 +55,25 @@ textarea {
 .row .input-field {
   flex-basis: 48%;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row .input-field {
+    flex-basis: 100%;
+  }
+}
+
 /* laptop */
-@media (min-width: 1024px) {
-  .container {
-    width: 50%;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    width: 75%;
-  }
-}
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .container {
     width: 100%;
   }
