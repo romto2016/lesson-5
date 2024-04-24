@@ -13,8 +13,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 form {
-  width: 90%;
+  width: 583px;
   max-width: 600px;
   justify-content: center;
 }
@@ -56,13 +57,23 @@ textarea {
   flex-basis: 48%;
 }
 
+.input-field-5 {
+  width: 10%;
+}
 /* mobile */
 @media (max-width: 768px) {
   .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     width: 25%;
   }
+
+  .input-field-4 {
+    display: flex;
+    max-width: auto;
+    height: 37px;
+  }
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -70,9 +81,13 @@ textarea {
   .row .input-field {
     flex-basis: 100%;
   }
+
+  .input-field-5 {
+    width: auto;
+  }
 }
 
-/* laptop */
+/* desktop */
 @media (max-width: 1200px) {
   .container {
     width: 100%;
