@@ -26,6 +26,10 @@ form {
   width: 583px;
   max-width: 600px;
   justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .container {
   display: flex;
@@ -33,14 +37,7 @@ form {
   background-color: rgba(21, 32, 98, 0.116);
   padding: 10px;
 }
-.wrapper {
-  position: fixed;
-  top: 80px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
+
 .h3 {
   display: flex;
   align-items: center;
